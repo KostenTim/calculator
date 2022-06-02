@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="309.0" style="-fx-background-color: #f5e5ba;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.controller.CalculatorController">
+   <children>
+      <Label alignment="CENTER" prefHeight="57.0" prefWidth="309.0" style="-fx-background-color: #e8a068;" text="CALCULATOR" textAlignment="CENTER" textFill="#2c2727">
+         <font>
+            <Font name="Cambria" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSquareRoot" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="105.0" mnemonicParsing="false" onAction="#btnSquareRootAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="√">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="displayLabel" alignment="CENTER" editable="false" layoutX="10.0" layoutY="65.0" prefHeight="30.0" prefWidth="290.0" style="-fx-background-color: #d1cab6;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnC" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="105.0" mnemonicParsing="false" onAction="#btnCAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="C">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDegree" alignment="CENTER" contentDisplay="CENTER" layoutX="159.0" layoutY="105.0" mnemonicParsing="false" onAction="#btnDegreeAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="^">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDevide" alignment="CENTER" contentDisplay="CENTER" layoutX="232.0" layoutY="105.0" mnemonicParsing="false" onAction="#btnDivideAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPercent" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnPercentAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="\%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlus" alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnPlusAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMinus" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnMinusAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMultiply" alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnMultiplyAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="*">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn7Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn8Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn9Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnResult" alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnResultAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="=">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="301.0" mnemonicParsing="false" onAction="#btn4Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="301.0" mnemonicParsing="false" onAction="#btn5Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="301.0" mnemonicParsing="false" onAction="#btn6Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPoint" alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="301.0" mnemonicParsing="false" onAction="#btnPointAction" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text=".">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn1Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn2Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn3Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn0Action" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #e8a068;" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
